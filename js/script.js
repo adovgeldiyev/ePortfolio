@@ -6,4 +6,12 @@ $(document).ready(function(){
         pagination: false
     });
 
+    var typed = new Typed(".typed", {
+        strings: ["Data Scientist.", "Machine Learning Enthusiast.", "Research Engineer."],
+        typeSpeed: 70,
+        loop: true,
+        startDelay: 1000,
+        showCursor: false
+    });
+
 });
