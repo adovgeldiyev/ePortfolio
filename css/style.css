@@ -6,12 +6,12 @@
     background-repeat: no-repeat;
 }
 
-.slides-navigation .prev{
+.slides-navigation a.prev{
     left: 20px;
-    background-image: url(../images/previous.png);
+    background-image: url(../images/grey-prev.png);
 }
 
-.slides-navigation .next{
+.slides-navigation a.next{
     right: 20px;
-    background-image: url(../images/next.png);
+    background-image: url(../images/grey-next.png);
 }
