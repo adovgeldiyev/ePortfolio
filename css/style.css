@@ -69,7 +69,8 @@ body {
     border-radius: 50%;
 }
 
-.skillsSection {
+.skillsSection,
+.contactSection {
     background-color: #34495e;
     color: #fff;
     font-family: 'Enriqueta', arial, serif;
@@ -103,3 +104,86 @@ body {
 .chart .percent:after {
     content: '%'
 }
+
+.contactButton {
+    color: #fff;
+    padding: 15px 20px;
+    display: inline-block;
+    margin-top: 20px;
+    border: 1px solid #fff;
+    border-radius: 15px;
+}
+
+.contactButton:hover {
+    text-decoration: none;
+    color:#34495e;
+    background-color: #fff;
+}
+
+.filter a {
+    color: #95a5a6;
+    border: 1px solid #95a5a6;
+    border-radius: 15px;
+    padding: 10px 18px;
+    display: block;
+}
+
+.filter li {
+    display: inline-block;
+    padding: 5px
+}
+
+.filter .current {
+    background-color: #34495e;
+    border-color: #34495e;
+    color: #fff;
+}
+
+.filter {
+    text-align: center;
+    width: 100%;
+}
+
+.section .heading {
+    text-align: center;
+    padding-bottom: 40px;
+    width: 100%;
+}
+
+.items li {
+    display: inline-block;
+    padding: 5px;
+}
+
+.itemsContainer {
+    width: 100%;
+}
+
+.items li img {
+    width: 100%;
+}
+
+.items .item {
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+
+.items .icons {
+    position: absolute;
+    width: 90px;
+    height: 40px;
+    left: 50%;
+    top: 50%;
+    margin: -20px auto 0 -47px;
+    text-align: center;
+    z-index: 3;
+}
+
+.items .icons i {
+    color: #2c3e50;
+    font-size: 20px;
+    margin-top: 9px;
+}
+
+
