@@ -181,9 +181,23 @@ body {
 }
 
 .items .icons i {
-    color: #2c3e50;
+    color: #fff;
     font-size: 20px;
     margin-top: 9px;
+}
+
+.items a {
+    width: 40px;
+    height: 40px;
+    background-color: #2c3e50;
+    position: relative;
+    display: inline-block;
+
+    -webkit-transition: all 0.2s linear, 0.2s;
+    -moz-transition: all 0.2s linear, 0.2s;
+    -o-transition: all 0.2s linear, 0.2s;
+    -ms-transition: all 0.2s linear, 0.2s;
+    -transition: all 0.2s linear, 0.2s;
 }
 
 .items .imageOverlay {
@@ -205,5 +219,25 @@ body {
 .items .item:hover .imageOverlay {
     opacity: 1;
 }
+
+.items .openButton {
+    float: left;
+    left: -200px;
+}
+
+.items .projectLink {
+    float: right;
+    right: -200px;
+}
+
+.items .item:hover .openButton {
+    left: 0px;
+}
+
+.items .item:hover .projectLink {
+    right: 0px;
+}
+
+
 
 
